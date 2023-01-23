@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bikerz Zone</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font-awesome-link -->
+    <script src="https://kit.fontawesome.com/8a36f5f5c7.js" crossorigin="anonymous"></script>
+    <!-- Font-awesome-cdnJs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Css Styles Link-->
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body class="container-lg">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bikerz Zone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bikes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <button class="ms-2 btn btn-outline-danger" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Banner Slider -->
+        <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 rounded p-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                            <div>
+                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate
+                                    cupiditate deserunt voluptates officia, nam necessitatibus vitae hic atque!</p>
+                                <button class="btn btn-danger">Purchase</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 gy-3">
+                            <img src="./images/bike-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                            <div>
+                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate
+                                    cupiditate deserunt voluptates officia, nam necessitatibus vitae hic atque!</p>
+                                <button class="btn btn-danger">Purchase</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 gy-3">
+                            <img src="./images/bike-2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                            <div>
+                                <h1>Ride-on R15 V4 with Smile</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptate
+                                    cupiditate deserunt voluptates officia, nam necessitatibus vitae hic atque!</p>
+                                <button class="btn btn-danger">Purchase</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 gy-3">
+                            <img src="./images/bike-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bikerz-prev-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bikerz-prev-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- hot bike section -->
+        <section class="text-start text-md-center mt-5 px-3">
+            <h1>Hot Bikes In This Year</h1>
+            <p class="text-danger">Best Bike Collection</p>
+            <hr class="w-25 mx-auto border-danger border-2">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3">
+                <div class="col">
+                    <img class="w-100" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-75" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img class="w-100" src="./images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- New-Arrival section-->
+        <section class="bg-body-secondary mt-4 py-3 px-3">
+            <h1 class="text-center mt-3">New Arrival</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+
+                <div class="col">
+                    <div class="card h-100 rounded-4">
+                        <img src="./images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDiavel</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.This card has supporting text.</p>
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 rounded-5">
+                        <img src="./images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Yamaha FZS FI V3</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.This card has supporting text.</p>
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 rounded-4">
+                        <img src="./images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">KTM RC 200</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.This card has supporting text.</p>
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Happy-Clients -->
+        <section class="mt-5">
+            <h1 class="text-center">Happy <span class="text-danger">Clients</span></h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/user-1.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body text-center py-3">
+                            <h5 class="card-title">Best Customer</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <h5 class="text-primary">Michael Jackson</h5>
+                            <p>Banker,Boston</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/user-2.png" class="card-img-top card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Top Ratings</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <h5 class="text-primary">Mèng yáo</h5>
+                            <p>Teacher,China</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/user-3.png" class="card-img-top card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Best Buyers</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                            <h5 class="text-primary">Adhya Roy</h5>
+                            <p>Dancer,India</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+
+    </footer>
+    <!-- Bootstrap-Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
